@@ -20,7 +20,7 @@ namespace Proyecto1_Lenguajes.Models.Data
             connectionString = _configuration.GetConnectionString("DefaultConnection");
         }
 
-        public int Insert(Ticket ticket)
+        public int Insert(TicketDTO ticket)
         {
             PDF pdf = new PDF();
           
@@ -40,22 +40,22 @@ namespace Proyecto1_Lenguajes.Models.Data
                     SqlCommand command = new SqlCommand("InsertTicket", connection);
                     command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                    command.Parameters.AddWithValue("@ParkingLotId", ticket.ParkingLot.IdParkingLot);
-                    command.Parameters.AddWithValue("@SpotId", ticket.Spot.Id);
-                    command.Parameters.AddWithValue("@UserId", ticket.User.IdUser);
-                    command.Parameters.AddWithValue("@RateTypeId", ticket.RateType.IdRateType);
+                    command.Parameters.AddWithValue("@ParkingLotId", ticket.ParkingLot);
+                    command.Parameters.AddWithValue("@SpotId", ticket.Spot);
+                    command.Parameters.AddWithValue("@UserId", ticket.User);
+                    command.Parameters.AddWithValue("@RateTypeId", ticket.RateType);
                     command.Parameters.AddWithValue("@StarDay", ticket.StarDay);
                     command.Parameters.AddWithValue("@EndDay", ticket.EndDay);
 
                     resultToReturn = command.ExecuteNonQuery();
 
-                    pdf.GenerateBill(userDAO.GetByEmail(ticket.User.Email).Name, userDAO.GetByEmail(ticket.User.Email).Name,
-                        spotDAO.Get(Convert.ToString(ticket.Spot.Id)).Number.ToString(), parkingDAO.GetNameParking(ticket.ParkingLot.IdParkingLot).Name,
-                        rateTypeDAO.Get(ticket.RateType.BookingTime).Amount.ToString(), ticket.StarDay);
-
-                    sendMails.sendMailsSmartParking("The user: " + userDAO.GetByEmail(ticket.User.Email).Name + ", your spot is : " +
-                        spotDAO.Get(Convert.ToString(ticket.Spot.Id)).Number.ToString() + ", in the parking lot: " + parkingDAO.GetNameParking(ticket.ParkingLot.IdParkingLot).Name +
-                        " the amount of your fee is " + rateTypeDAO.Get(ticket.RateType.BookingTime).Amount.ToString() + " , start dates is  " + ticket.StarDay + " ,end  dates is " + ticket.EndDay + " .", ticket.User.Email, "Report Ticket");
+//                    pdf.GenerateBill(userDAO.GetByEmail(ticket.User.Email).Name, userDAO.GetByEmail(ticket.User.Email).Name,
+  //                      spotDAO.Get(Convert.ToString(ticket.Spot.Id)).Number.ToString(), parkingDAO.GetNameParking(ticket.ParkingLot.IdParkingLot).Name,
+    //                    rateTypeDAO.Get(ticket.RateType.BookingTime).Amount.ToString(), ticket.StarDay);
+    
+         //           sendMails.sendMailsSmartParking("The user: " + userDAO.GetByEmail(ticket.User.Email).Name + ", your spot is : " +
+    //                    spotDAO.Get(Convert.ToString(ticket.Spot)).Number.ToString() + ", in the parking lot: " + parkingDAO.GetNameParking(ticket.ParkingLot.IdParkingLot).Name +
+      //                  " the amount of your fee is " + rateTypeDAO.Get(ticket.RateType.BookingTime).Amount.ToString() + " , start dates is  " + ticket.StarDay + " ,end  dates is " + ticket.EndDay + " .", ticket.User.Email, "Report Ticket");
 
 
                     connection.Close();

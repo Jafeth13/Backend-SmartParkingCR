@@ -24,7 +24,7 @@ namespace Proyecto1_Lenguajes.Controllers
         }
         [HttpPost]
         [Route("ticket/[action]")]
-        public IActionResult Insert([FromBody] Ticket ticket)
+        public IActionResult Insert([FromBody] TicketDTO ticket)
         {
 
             int resultToReturn = ticketDAO.Insert(ticket);
