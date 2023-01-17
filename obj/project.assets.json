@@ -11380,11 +11380,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jafet\\Documents\\GitHub\\SmartParkingCR_Backend\\SmartParkingCR_Backend.csproj",
+      "projectUniqueName": "C:\\Users\\jafet\\Documents\\GitHub\\Back-end-Deyaln\\Backend-CR\\SmartParkingCR_Backend.csproj",
       "projectName": "SmartParkingCR_Backend",
-      "projectPath": "C:\\Users\\jafet\\Documents\\GitHub\\SmartParkingCR_Backend\\SmartParkingCR_Backend.csproj",
+      "projectPath": "C:\\Users\\jafet\\Documents\\GitHub\\Back-end-Deyaln\\Backend-CR\\SmartParkingCR_Backend.csproj",
       "packagesPath": "C:\\Users\\jafet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jafet\\Documents\\GitHub\\SmartParkingCR_Backend\\obj\\",
+      "outputPath": "C:\\Users\\jafet\\Documents\\GitHub\\Back-end-Deyaln\\Backend-CR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

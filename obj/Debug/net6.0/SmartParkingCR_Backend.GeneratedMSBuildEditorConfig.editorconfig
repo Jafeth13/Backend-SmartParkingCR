@@ -8,33 +8,33 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SmartParkingCR_Backend
 build_property.RootNamespace = SmartParkingCR_Backend
-build_property.ProjectDir = C:\Users\jafet\Documents\GitHub\SmartParkingCR_Backend\
+build_property.ProjectDir = C:\Users\jafet\Documents\GitHub\Back-end-Deyaln\Backend-CR\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jafet\Documents\GitHub\SmartParkingCR_Backend
+build_property.MSBuildProjectDirectory = C:\Users\jafet\Documents\GitHub\Back-end-Deyaln\Backend-CR
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jafet/Documents/GitHub/SmartParkingCR_Backend/Views/ParkingLots/Create.cshtml]
+[C:/Users/jafet/Documents/GitHub/Back-end-Deyaln/Backend-CR/Views/ParkingLots/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jafet/Documents/GitHub/SmartParkingCR_Backend/Views/ParkingLots/Delete.cshtml]
+[C:/Users/jafet/Documents/GitHub/Back-end-Deyaln/Backend-CR/Views/ParkingLots/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jafet/Documents/GitHub/SmartParkingCR_Backend/Views/ParkingLots/Details.cshtml]
+[C:/Users/jafet/Documents/GitHub/Back-end-Deyaln/Backend-CR/Views/ParkingLots/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jafet/Documents/GitHub/SmartParkingCR_Backend/Views/ParkingLots/Edit.cshtml]
+[C:/Users/jafet/Documents/GitHub/Back-end-Deyaln/Backend-CR/Views/ParkingLots/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jafet/Documents/GitHub/SmartParkingCR_Backend/Views/ParkingLots/Index.cshtml]
+[C:/Users/jafet/Documents/GitHub/Back-end-Deyaln/Backend-CR/Views/ParkingLots/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jafet/Documents/GitHub/SmartParkingCR_Backend/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jafet/Documents/GitHub/Back-end-Deyaln/Backend-CR/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

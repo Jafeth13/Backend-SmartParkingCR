@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1OWZyJolDCdWpilBxwzqUz1ceUGv77si9AMFvf3yAE7tRkQePBnhiKJrZU3lyGvcFKFS15Bs/zH5F10X/r6xMA==",
+  "dgSpecHash": "gBEh4DQrQxl8IY78o7Ca3gJL5WfMMiltYuaMGFw2aSaRl0dA3igcP3L/XZ8t8CmVCN1bYRNZ6k3TfQahGa74hA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jafet\\Documents\\GitHub\\SmartParkingCR_Backend\\SmartParkingCR_Backend.csproj",
+  "projectFilePath": "C:\\Users\\jafet\\Documents\\GitHub\\Back-end-Deyaln\\Backend-CR\\SmartParkingCR_Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafet\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\jafet\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

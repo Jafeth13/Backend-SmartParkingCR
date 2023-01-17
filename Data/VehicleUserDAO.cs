@@ -40,7 +40,7 @@ namespace Proyecto1_Lenguajes.Models.Data
                         {
                             User = new User(0,null, sqlDataReader["Name"].ToString(), sqlDataReader["LastName"].ToString(),
                             sqlDataReader["Tel_Number"].ToString(), sqlDataReader["Email"].ToString(), null, null),
-                            Vehicle = new Vehicle(0, sqlDataReader["LicensePlate"].ToString(), null, 0, null, null)
+                            Vehicle = new Vehicle(Convert.ToInt32(sqlDataReader.GetInt32(1)), sqlDataReader["LicensePlate"].ToString(), null, 0, null, null)
                         });
                     }
                     connection.Close();
