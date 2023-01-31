@@ -49,15 +49,6 @@ namespace Proyecto1_Lenguajes.Models.Data
 
                     resultToReturn = command.ExecuteNonQuery();
 
-//                    pdf.GenerateBill(userDAO.GetByEmail(ticket.User.Email).Name, userDAO.GetByEmail(ticket.User.Email).Name,
-  //                      spotDAO.Get(Convert.ToString(ticket.Spot.Id)).Number.ToString(), parkingDAO.GetNameParking(ticket.ParkingLot.IdParkingLot).Name,
-    //                    rateTypeDAO.Get(ticket.RateType.BookingTime).Amount.ToString(), ticket.StarDay);
-    
-         //           sendMails.sendMailsSmartParking("The user: " + userDAO.GetByEmail(ticket.User.Email).Name + ", your spot is : " +
-    //                    spotDAO.Get(Convert.ToString(ticket.Spot)).Number.ToString() + ", in the parking lot: " + parkingDAO.GetNameParking(ticket.ParkingLot.IdParkingLot).Name +
-      //                  " the amount of your fee is " + rateTypeDAO.Get(ticket.RateType.BookingTime).Amount.ToString() + " , start dates is  " + ticket.StarDay + " ,end  dates is " + ticket.EndDay + " .", ticket.User.Email, "Report Ticket");
-
-
                     connection.Close();
                 }
             }

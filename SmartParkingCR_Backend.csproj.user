@@ -11,5 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>SmartParkingCR_Backend.Models.DbSmartParkingContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\jafet\Documents\GitHub\Back-end-Deyaln\Backend-CR\Properties\PublishProfiles\FTPProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

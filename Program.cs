@@ -33,7 +33,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("GetAllPolicy",
       builder =>
       {
-          builder.WithOrigins("http://localhost:4200", "https://smartparkingcr.azurewebsites.net")
+          builder.WithOrigins("http://localhost:4200", "https://smartparkingcr.azurewebsites.net", "https://meek-gnome-524ae8.netlify.app")
                               .AllowAnyHeader()
                               .AllowAnyMethod().AllowCredentials();//PUT, PATCH, GET, DELETE
           
